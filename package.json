@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "truffle compile && mocha --exit --recursive"
+    "test": "truffle compile && mocha --exit --recursive",
+    "fast-test": "mocha --exit --recursive"
   },
   "keywords": [],
   "author": "",
